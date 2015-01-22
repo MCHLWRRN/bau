@@ -2,12 +2,17 @@
 @import "bootstrap";
 
 .navbar.navbar-inverse {
-  background:url('/assets/cartographer.png');
+  background:url('/assets/tweed.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
 
 body {
 	/* Monospace stack */
+	background: url('/assets/lined_paper.png');
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+.clr {
+	clear: both;
 }
