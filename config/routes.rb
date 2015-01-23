@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/home' => 'pages#home'
+  root 'pages#index'
   get '/about' => 'pages#about'
   get '/tour' => 'pages#tour'
   get '/music' => 'pages#music'
