@@ -69,3 +69,22 @@ body {
 .icon-youtube:before {
   content: "d";
 }
+
+.hero {
+	background: url('sc2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.5);
+  color: white;
+ }
+
