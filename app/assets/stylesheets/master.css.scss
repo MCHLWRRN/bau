@@ -76,7 +76,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px;
+  height: 1200px;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -88,3 +88,19 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color: white;
  }
 
+.boxx {
+  background:rgba(0,0,0, 0.5);
+  color: white;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.boxx a {
+	color: white;
+}
