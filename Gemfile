@@ -42,3 +42,11 @@ gem 'bootstrap-sass', '~> 3.3.0'
 
 gem 'autoprefixer-rails'
 
+gem 'refinerycms', github: 'refinery/refinerycms', branch: 'master'
+
+gem 'simple_form'
+
+gem 'gibbon'
+
+gem 'figaro'
+
