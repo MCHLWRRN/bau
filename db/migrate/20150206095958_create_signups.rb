@@ -1,8 +1,8 @@
 class CreateSignups < ActiveRecord::Migration
-  def change
-    create_table :signups do |t|
+	def change
+		create_table :quotes do |t|
 
-      t.timestamps
-    end
+			t.string :email
+		end
   end
 end
