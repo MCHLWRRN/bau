@@ -1,6 +1,10 @@
 <div class="hero">
 	<br />
 	<div class="frosty col-xs-10 col-xs-offset-1 text-center">
-		<h1>This is the home page</h1>
+		<h1>Enter Your Email To Get Our Boardroom Meeting Minutes</h1>
+			<%= simple_form_for @signup do |f| %>
+			  <%= f.input :email %>
+			  <%= f.submit 'Give Me Business As Usual\'s Boardroom Meeting Minutes', :class => 'btn btn-danger' %>
+			<% end %>
 	</div>
-</div>
+</div>o
