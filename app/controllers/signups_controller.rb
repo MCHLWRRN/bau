@@ -7,7 +7,7 @@ class SignupsController < ApplicationController
 	def create
 		@signup = Signup.new(secure_params)
 		if @signup.valid?
-			redirect_to root_path
+			redirect_to signups_path
 		else
 			render :new
 		end
