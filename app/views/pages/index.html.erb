@@ -5,7 +5,7 @@
 		<h4>Enter Your Email To Get Our Boardroom Meeting Minutes</h4>
 		<br />
 		<br />
-			<%= simple_form_for :signup do |f| %>
+			<%= simple_form_for :signup, :url => signups_path do |f| %>
 			  <%= f.input :email, label: false, :placeholder => 'cantwaittoseeyou@ournextshow.com' %>
 			  <br />
 			  <%= f.submit 'Sign Up For Meeting Minutes', :class => 'btn btn-danger' %>

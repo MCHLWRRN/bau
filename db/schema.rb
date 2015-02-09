@@ -17,8 +17,7 @@ ActiveRecord::Schema.define(version: 20150206095958) do
   enable_extension "plpgsql"
 
   create_table "signups", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string "email"
   end
 
 end
